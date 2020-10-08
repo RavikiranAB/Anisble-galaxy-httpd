@@ -10,7 +10,7 @@
   copy:
     src: index.html
     dest: "{{ dest }}/index.html"
-    mode: 0766
+    mode: 0777
   notify: restart httpd
 
 
